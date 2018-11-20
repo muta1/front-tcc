@@ -13,4 +13,5 @@ export interface ContractModel {
   deliverDate: string;
   deadline: string;
   ruralBackground: string;
+  status: string;
 }
