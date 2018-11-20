@@ -1,4 +1,6 @@
 export interface ContractModel {
+  id: number;
+  contractId: string;
   sellerid: number;
   buyerid: number;
   product: string;
@@ -11,4 +13,5 @@ export interface ContractModel {
   deliverDate: string;
   deadline: string;
   ruralBackground: string;
+  status: string;
 }
