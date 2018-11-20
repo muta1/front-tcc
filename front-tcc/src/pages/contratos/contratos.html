@@ -11,4 +11,24 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding> </ion-content>
+<ion-content padding>
+  <ion-list padding>
+    <ion-item
+      *ngFor="let contract of contracts"
+      (click)="goToContrato(contract.id)"
+    >
+      <ion-row>
+        <ion-col col-9>
+          <ion-row class="contract-data"><b>Id:</b> {{ contract.id }}</ion-row>
+          <ion-row class="contract-data"
+            ><b>Produto:</b> {{ contract.product }}</ion-row
+          >
+          <ion-row class="contract-data"
+            ><b>Preço:</b> {{ contract.price }}</ion-row
+          >
+        </ion-col>
+        <ion-col col-3 class="more-details"> Ver Detalhes </ion-col>
+      </ion-row>
+    </ion-item>
+  </ion-list>
+</ion-content>
