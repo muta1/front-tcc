@@ -1,3 +1,50 @@
 page-home {
-
+  .home-message {
+    padding-top: 10%;
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+  }
+  .home-padding {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+  .tcc-title {
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+    padding-top: 5%;
+  }
+  //header style
+  .toolbar-title {
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    padding-right: 10%;
+  }
+  .toolbar-background {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-style: hidden;
+    background-color: #8cc63f !important;
+  }
+  .button-inner {
+    color: white;
+  }
+  .header-ios .toolbar-ios:last-child .toolbar-background-ios {
+    border-width: 0px !important;
+  }
+  .header-ios .toolbar-background-ios {
+    border-style: none !important;
+  }
+  .header-md::after {
+    height: 0px;
+  }
+  .back-button-md,
+  .back-button-ios {
+    padding-left: 3%;
+    padding-right: 5%;
+    color: color($colors, primary, base);
+  }
 }
