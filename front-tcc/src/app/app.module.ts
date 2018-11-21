@@ -1,3 +1,4 @@
+import { BlocosAnterioresPage } from './../pages/blocos-anteriores/blocos-anteriores';
 import { TodosContratosPage } from './../pages/todos-contratos/todos-contratos';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
@@ -16,7 +17,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ContratosPage,
     ContratosDetalhesPage,
-    TodosContratosPage
+    TodosContratosPage,
+    BlocosAnterioresPage
   ],
   imports: [BrowserModule, IonicModule.forRoot(MyApp)],
   bootstrap: [IonicApp],
@@ -25,7 +27,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HomePage,
     ContratosPage,
     ContratosDetalhesPage,
-    TodosContratosPage
+    TodosContratosPage,
+    BlocosAnterioresPage
   ],
   providers: [
     StatusBar,

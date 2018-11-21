@@ -72,7 +72,23 @@
     <ion-col class="column-data"> {{ contract.deadline }} </ion-col>
   </ion-row>
   <ion-row>
-    <ion-col class="column-name"> Fundo Rural </ion-col>
+    <ion-col class="column-name"> Fundo Rural: </ion-col>
     <ion-col class="column-data"> {{ contract.ruralBackground }} </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col class="column-name"> Status: </ion-col>
+    <ion-col class="column-data"> Validado </ion-col>
+  </ion-row>
+  <ion-row text-center>
+    <ion-col text-center>
+      <button
+        ion-button
+        round
+        style="background-color:#8cc63f"
+        (click)="goToBlocosAnteriores()"
+      >
+        <span class="profile-logout">&nbsp; Ver blocos anteriores</span>
+      </button>
+    </ion-col>
   </ion-row>
 </ion-content>
