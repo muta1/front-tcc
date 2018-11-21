@@ -1,3 +1,4 @@
+import { BlocosAnterioresPage } from './../blocos-anteriores/blocos-anteriores';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -17,6 +18,8 @@ export class ContratosDetalhesPage {
   contract: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.contract = this.navParams.get('contract');
-    console.log('contract:', this.contract);
+  }
+  goToBlocosAnteriores() {
+    this.navCtrl.push(BlocosAnterioresPage, { contract: this.contract });
   }
 }

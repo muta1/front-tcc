@@ -1,4 +1,4 @@
-page-contratos-detalhes {
+page-blocos-anteriores {
   .column-name {
     text-align: right;
     font-size: 1.3em;
@@ -7,9 +7,20 @@ page-contratos-detalhes {
   }
   .column-data {
     text-align: left;
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: black;
     font-weight: normal;
+  }
+  .block-border {
+    border: 1px solid #8cc63f;
+  }
+  .block-row-padding {
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+  .arrow-down {
+    font-size: 70px;
+    color: #8cc63f;
   }
   //header style
   .toolbar-title {

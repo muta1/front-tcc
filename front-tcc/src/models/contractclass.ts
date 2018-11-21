@@ -70,7 +70,7 @@ export class Contract {
         price: this.prices[Math.floor(Math.random() * 30) + 1],
         product: this.products[Math.floor(Math.random() * 2) + 1],
         ruralBackground:
-          Math.floor(Math.random() * 2) + 1 == 1 ? 'verdadeiro' : 'falso',
+          Math.floor(Math.random() * 2) + 1 == 1 ? 'Incluso' : 'Não incluso',
         sellerInitialPrice: this.pricesSeller[
           Math.floor(Math.random() * 30) + 1
         ],
